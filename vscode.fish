@@ -1,4 +1,4 @@
-function vscode --description 'Open Virtual Studio Code'
+function vscode --description 'Open Visual Studio Code'
   if test -d "/Applications/Visual Studio Code.app"
     open -n -b "com.microsoft.VSCode" $argv
   else
